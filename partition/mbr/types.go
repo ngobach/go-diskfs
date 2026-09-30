@@ -13,6 +13,7 @@ const (
 	ExtendedCHS   Type = 0x05
 	Fat16b        Type = 0x06
 	NTFS          Type = 0x07
+	ExFAT         Type = 0x07
 	CommodoreFAT  Type = 0x08
 	Fat32CHS      Type = 0x0b
 	Fat32LBA      Type = 0x0c

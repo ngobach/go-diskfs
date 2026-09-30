@@ -11,6 +11,7 @@ import (
 
 	"github.com/diskfs/go-diskfs/backend"
 	"github.com/diskfs/go-diskfs/filesystem"
+	"github.com/diskfs/go-diskfs/filesystem/exfat"
 	"github.com/diskfs/go-diskfs/filesystem/ext4"
 	"github.com/diskfs/go-diskfs/filesystem/fat12"
 	"github.com/diskfs/go-diskfs/filesystem/fat16"
@@ -166,6 +167,8 @@ func (d *Disk) CreateFilesystem(spec FilesystemSpec) (filesystem.FileSystem, err
 	}
 
 	switch spec.FSType {
+	case filesystem.TypeExFAT:
+		return exfat.Create(d.Backend, size, start, d.LogicalBlocksize, spec.VolumeLabel)
 	case filesystem.TypeFat12:
 		return fat12.Create(d.Backend, size, start, d.LogicalBlocksize, spec.VolumeLabel, spec.Reproducible)
 	case filesystem.TypeFat16:
@@ -213,7 +216,13 @@ func (d *Disk) GetFilesystem(partIndex int) (filesystem.FileSystem, error) {
 		start = foundPart.GetStart()
 	}
 
-	// Try FAT variants first (most specific to least specific).
+	// Try exFAT and FAT variants first (most specific to least specific).
+	log.Debug("trying exfat")
+	exfatFS, err := exfat.Read(d.Backend, size, start, d.LogicalBlocksize)
+	if err == nil {
+		return exfatFS, nil
+	}
+	log.Debugf("exfat failed: %v", err)
 	log.Debug("trying fat32")
 	fat32FS, err := fat32.Read(d.Backend, size, start, d.LogicalBlocksize)
 	if err == nil {

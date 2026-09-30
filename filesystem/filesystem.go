@@ -74,4 +74,6 @@ const (
 	TypeFat12
 	// TypeFat16 is a FAT16 compatible filesystem
 	TypeFat16
+	// TypeExFAT is an exFAT compatible filesystem
+	TypeExFAT
 )
