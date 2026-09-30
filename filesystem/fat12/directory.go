@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/diskfs/go-diskfs/util/timestamp"
+	"github.com/ngobach/go-diskfs/util/timestamp"
 )
 
 // Directory represents a single directory in a FAT12/FAT16 filesystem

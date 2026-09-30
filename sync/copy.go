@@ -9,9 +9,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/partition/part"
+	"github.com/ngobach/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/partition/part"
 )
 
 // excludedPaths these are excluded from any copy

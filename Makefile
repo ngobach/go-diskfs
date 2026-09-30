@@ -1,7 +1,7 @@
 .PHONY: test image unit_test
 
-PACKAGE_NAME?=github.com/diskfs/go-diskfs
-IMAGE ?= diskfs/go-diskfs:build
+PACKAGE_NAME?=github.com/ngobach/go-diskfs
+IMAGE ?= ngobach/go-diskfs:build
 GOENV ?= GO111MODULE=on CGO_ENABLED=0
 GO_FILES ?= $(shell $(GOENV) go list ./...)
 GOBIN ?= $(shell go env GOPATH)/bin

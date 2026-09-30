@@ -6,8 +6,8 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/util/timestamp"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/util/timestamp"
 )
 
 var _ filesystem.File = (*File)(nil)

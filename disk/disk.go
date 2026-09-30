@@ -1,7 +1,7 @@
 // Package disk provides utilities for working directly with a disk
 //
 // Most of the provided functions are intelligent wrappers around implementations of
-// github.com/diskfs/go-diskfs/partition and github.com/diskfs/go-diskfs/filesystem
+// github.com/ngobach/go-diskfs/partition and github.com/ngobach/go-diskfs/filesystem
 package disk
 
 import (
@@ -9,17 +9,17 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/exfat"
-	"github.com/diskfs/go-diskfs/filesystem/ext4"
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
-	"github.com/diskfs/go-diskfs/filesystem/fat16"
-	"github.com/diskfs/go-diskfs/filesystem/fat32"
-	"github.com/diskfs/go-diskfs/filesystem/iso9660"
-	"github.com/diskfs/go-diskfs/filesystem/squashfs"
-	"github.com/diskfs/go-diskfs/partition"
-	"github.com/diskfs/go-diskfs/partition/part"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/exfat"
+	"github.com/ngobach/go-diskfs/filesystem/ext4"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/filesystem/fat16"
+	"github.com/ngobach/go-diskfs/filesystem/fat32"
+	"github.com/ngobach/go-diskfs/filesystem/iso9660"
+	"github.com/ngobach/go-diskfs/filesystem/squashfs"
+	"github.com/ngobach/go-diskfs/partition"
+	"github.com/ngobach/go-diskfs/partition/part"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -135,7 +135,7 @@ type FilesystemSpec struct {
 // Required:
 //   - desired partition number, or 0 to create the filesystem on the entire block device or
 //     disk image,
-//   - the filesystem type from github.com/diskfs/go-diskfs/filesystem
+//   - the filesystem type from github.com/ngobach/go-diskfs/filesystem
 //
 // Optional:
 //   - volume label for those filesystems that support it; under Linux this shows

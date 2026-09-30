@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/partition/part"
-	"github.com/diskfs/go-diskfs/testhelper"
+	"github.com/ngobach/go-diskfs/partition/part"
+	"github.com/ngobach/go-diskfs/testhelper"
 )
 
 const (

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
 )
 
 // FileSystem is a FAT16 filesystem. It embeds *fat12.FileSystem to inherit

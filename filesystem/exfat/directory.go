@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/diskfs/go-diskfs/util/timestamp"
+	"github.com/ngobach/go-diskfs/util/timestamp"
 )
 
 // EntrySet represents a file or directory's grouped directory entries

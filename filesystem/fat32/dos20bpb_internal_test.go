@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
 )
 
 func getValidDos20BPB() *fat12.Dos20BPB {

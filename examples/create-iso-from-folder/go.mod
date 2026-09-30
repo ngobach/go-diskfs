@@ -4,9 +4,9 @@ go 1.24.0
 
 toolchain go1.24.2
 
-replace github.com/diskfs/go-diskfs => ../..
+replace github.com/ngobach/go-diskfs => ../..
 
-require github.com/diskfs/go-diskfs v1.3.0
+require github.com/ngobach/go-diskfs v1.3.0
 
 require (
 	github.com/anchore/go-lzo v0.1.0 // indirect

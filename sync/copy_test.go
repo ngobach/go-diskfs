@@ -8,7 +8,7 @@ import (
 	"testing/fstest"
 	"time"
 
-	"github.com/diskfs/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem"
 )
 
 // fakeFS implements filesystem.FileSystem for testing CopyFileSystem.

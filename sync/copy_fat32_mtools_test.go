@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/partition/gpt"
+	diskfs "github.com/ngobach/go-diskfs"
+	"github.com/ngobach/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/partition/gpt"
 )
 
 // The mtools round trip needs enough clusters for fsck.vfat to accept the

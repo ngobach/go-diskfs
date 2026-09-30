@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/testhelper"
+	"github.com/ngobach/go-diskfs/testhelper"
 	"github.com/go-test/deep"
 )
 

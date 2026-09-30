@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/ext4/crc"
-	"github.com/diskfs/go-diskfs/util/bitmap"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/ext4/crc"
+	"github.com/ngobach/go-diskfs/util/bitmap"
 	"github.com/google/uuid"
 )
 
@@ -254,7 +254,7 @@ func (fs *FileSystem) Equal(a *FileSystem) bool {
 // 20GB, and create a small filesystem of size 50MB that begins 2GB into the disk.
 // This is extremely useful for creating filesystems on disk partitions.
 //
-// Note, however, that it is much easier to do this using the higher-level APIs at github.com/diskfs/go-diskfs
+// Note, however, that it is much easier to do this using the higher-level APIs at github.com/ngobach/go-diskfs
 // which allow you to work directly with partitions, rather than having to calculate (and hopefully not make any errors)
 // where a partition starts and ends.
 //
@@ -807,7 +807,7 @@ func Create(b backend.Storage, size, start, sectorsize int64, p *Params) (*FileS
 // 20GB, and a small filesystem of size 50MB that begins 2GB into the disk.
 // This is extremely useful for working with filesystems on disk partitions.
 //
-// Note, however, that it is much easier to do this using the higher-level APIs at github.com/diskfs/go-diskfs
+// Note, however, that it is much easier to do this using the higher-level APIs at github.com/ngobach/go-diskfs
 // which allow you to work directly with partitions, rather than having to calculate (and hopefully not make any errors)
 // where a partition starts and ends.
 //

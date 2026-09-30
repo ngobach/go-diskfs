@@ -1,7 +1,7 @@
 package ext4
 
 import (
-	"github.com/diskfs/go-diskfs/filesystem/ext4/md4"
+	"github.com/ngobach/go-diskfs/filesystem/ext4/md4"
 )
 
 const (

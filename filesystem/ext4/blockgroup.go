@@ -3,7 +3,7 @@ package ext4
 import (
 	"fmt"
 
-	"github.com/diskfs/go-diskfs/util/bitmap"
+	"github.com/ngobach/go-diskfs/util/bitmap"
 )
 
 // blockGroup is a structure holding the data about a single block group

@@ -1,13 +1,13 @@
 // Package partition provides ability to work with individual partitions.
-// All useful implementations are subpackages of this package, e.g. github.com/diskfs/go-diskfs/gpt
+// All useful implementations are subpackages of this package, e.g. github.com/ngobach/go-diskfs/gpt
 package partition
 
 import (
 	"fmt"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/partition/gpt"
-	"github.com/diskfs/go-diskfs/partition/mbr"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/partition/gpt"
+	"github.com/ngobach/go-diskfs/partition/mbr"
 )
 
 // GPTPolicy controls how ReadWithPolicy resolves a disk where both GPT and MBR can be read.

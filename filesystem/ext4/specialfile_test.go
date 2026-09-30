@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/backend/file"
 )
 
 func TestOpenFileSpecialFileReturnsError(t *testing.T) {

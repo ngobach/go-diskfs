@@ -17,9 +17,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/disk"
 )
 
 // when we use a disk image with a GPT, we cannot get the logical sector size from the disk via the kernel

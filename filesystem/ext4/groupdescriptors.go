@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/diskfs/go-diskfs/filesystem/ext4/crc"
+	"github.com/ngobach/go-diskfs/filesystem/ext4/crc"
 )
 
 type blockGroupFlag uint16

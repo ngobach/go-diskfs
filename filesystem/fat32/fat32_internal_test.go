@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/backend/file"
 )
 
 var sweepSectorSizes = []int64{int64(SectorSize512), int64(SectorSize4096)}

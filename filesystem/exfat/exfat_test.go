@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/exfat"
+	diskfs "github.com/ngobach/go-diskfs"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/exfat"
 )
 
 func createTestBackend(t *testing.T, size int64) backend.Storage {

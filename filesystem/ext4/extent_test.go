@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/backend/file"
 )
 
 // TestExtentNodeHeaderToBytes tests serialization of the extent node header

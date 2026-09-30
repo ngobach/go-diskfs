@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/partition/gpt"
+	diskfs "github.com/ngobach/go-diskfs"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/partition/gpt"
 )
 
 func TestOpenExclusiveBlocksChildPartitionFsck(t *testing.T) {

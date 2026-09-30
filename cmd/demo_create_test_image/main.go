@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	diskpkg "github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/partition/gpt"
+	diskfs "github.com/ngobach/go-diskfs"
+	diskpkg "github.com/ngobach/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/partition/gpt"
 )
 
 func main() {

@@ -1,8 +1,8 @@
 package partition
 
 import (
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/partition/part"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/partition/part"
 )
 
 // Table reference to a partitioning table on disk

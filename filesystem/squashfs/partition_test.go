@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/squashfs"
-	"github.com/diskfs/go-diskfs/partition/gpt"
+	diskfs "github.com/ngobach/go-diskfs"
+	"github.com/ngobach/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/squashfs"
+	"github.com/ngobach/go-diskfs/partition/gpt"
 )
 
 // TestSquashfsInPartition exercises a squashfs that does not begin at

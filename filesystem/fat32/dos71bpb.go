@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
 )
 
 const (

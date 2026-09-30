@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/version"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/version"
 	"github.com/djherbis/times"
 )
 

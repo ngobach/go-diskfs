@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/backend/file"
 )
 
 // TestCreateMultiGB exercises Create on filesystems past the 512 MiB

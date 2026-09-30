@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
 )
 
 // ── helpers ───────────────────────────────────────────────────────────────────

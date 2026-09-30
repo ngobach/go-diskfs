@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/filesystem"
 )
 
 const (

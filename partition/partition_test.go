@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/partition"
-	"github.com/diskfs/go-diskfs/partition/gpt"
-	"github.com/diskfs/go-diskfs/partition/mbr"
+	"github.com/ngobach/go-diskfs/partition"
+	"github.com/ngobach/go-diskfs/partition/gpt"
+	"github.com/ngobach/go-diskfs/partition/mbr"
 )
 
 const (

@@ -11,7 +11,7 @@ You can do nearly everything that go-diskfs provides using shell tools like gdis
 go-diskfs performs all modifications _natively_ in go, without mounting any disks.
 
 ## Usage
-Note: detailed go documentation is available at [godoc.org](https://godoc.org/github.com/diskfs/go-diskfs).
+Note: detailed go documentation is available at [godoc.org](https://godoc.org/github.com/ngobach/go-diskfs).
 
 ### Concepts
 `go-diskfs` has a few basic concepts:

@@ -3,7 +3,7 @@ package ext4
 import (
 	"encoding/binary"
 
-	"github.com/diskfs/go-diskfs/filesystem/ext4/crc"
+	"github.com/ngobach/go-diskfs/filesystem/ext4/crc"
 )
 
 // checksumAppender is a function that takes a byte slice and returns a byte slice with a checksum appended

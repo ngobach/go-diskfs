@@ -20,15 +20,15 @@ import (
 	"testing"
 	"time"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/backend"
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
-	"github.com/diskfs/go-diskfs/filesystem/fat32"
-	"github.com/diskfs/go-diskfs/filesystem/internal/testutil"
-	"github.com/diskfs/go-diskfs/testhelper"
+	diskfs "github.com/ngobach/go-diskfs"
+	"github.com/ngobach/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/filesystem/fat32"
+	"github.com/ngobach/go-diskfs/filesystem/internal/testutil"
+	"github.com/ngobach/go-diskfs/testhelper"
 )
 
 var (

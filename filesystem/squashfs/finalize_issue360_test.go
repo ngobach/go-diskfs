@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/filesystem/squashfs"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/filesystem/squashfs"
 )
 
 // TestFinalizeInodesAcrossMetadataBlocks demonstrates the root cause of
-// https://github.com/diskfs/go-diskfs/issues/360.
+// https://github.com/ngobach/go-diskfs/issues/360.
 //
 // When compressed inode metadata spans multiple metadata blocks,
 // updateInodeLocations (finalize.go) computes each inode's block byte offset

@@ -13,9 +13,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/filesystem/ext4"
-	diskfsync "github.com/diskfs/go-diskfs/sync"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/filesystem/ext4"
+	diskfsync "github.com/ngobach/go-diskfs/sync"
 )
 
 const imgFile = "testdata/dist/ext4.img"

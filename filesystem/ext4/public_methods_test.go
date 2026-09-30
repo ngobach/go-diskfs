@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/filesystem"
 )
 
 // TestType verifies that FileSystem.Type() returns TypeExt4.

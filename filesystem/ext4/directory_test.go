@@ -3,7 +3,7 @@ package ext4
 import (
 	"testing"
 
-	"github.com/diskfs/go-diskfs/testhelper"
+	"github.com/ngobach/go-diskfs/testhelper"
 )
 
 func TestDirectoryToBytes(t *testing.T) {

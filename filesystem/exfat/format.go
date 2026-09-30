@@ -7,7 +7,7 @@ import (
 	"math/bits"
 	"time"
 
-	"github.com/diskfs/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/backend"
 )
 
 // Format formats a partition or disk image with exFAT,

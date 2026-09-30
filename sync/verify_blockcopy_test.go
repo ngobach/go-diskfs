@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/partition/gpt"
+	diskfs "github.com/ngobach/go-diskfs"
+	"github.com/ngobach/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/partition/gpt"
 )
 
 // TestVerifyBlockCopyTargetLargerThanSource covers the grow case: a smaller

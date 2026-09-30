@@ -10,7 +10,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/backend/file"
 )
 
 // TestWriteMultiBlock writes data larger than one filesystem block (4KB default)

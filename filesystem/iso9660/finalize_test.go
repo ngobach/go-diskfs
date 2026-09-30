@@ -11,11 +11,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/iso9660"
-	"github.com/diskfs/go-diskfs/partition/mbr"
-	"github.com/diskfs/go-diskfs/testhelper"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem/iso9660"
+	"github.com/ngobach/go-diskfs/partition/mbr"
+	"github.com/ngobach/go-diskfs/testhelper"
 )
 
 var (

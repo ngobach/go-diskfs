@@ -6,7 +6,7 @@ import (
 	iofs "io/fs"
 	"os"
 
-	"github.com/diskfs/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem"
 )
 
 var _ filesystem.File = &File{}

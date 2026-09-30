@@ -9,8 +9,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/diskfs/go-diskfs/filesystem/ext4/crc"
-	"github.com/diskfs/go-diskfs/util/slices"
+	"github.com/ngobach/go-diskfs/filesystem/ext4/crc"
+	"github.com/ngobach/go-diskfs/util/slices"
 	"github.com/google/uuid"
 )
 

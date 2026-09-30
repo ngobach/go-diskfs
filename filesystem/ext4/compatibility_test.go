@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/backend/file"
-	"github.com/diskfs/go-diskfs/filesystem/internal/testutil"
+	"github.com/ngobach/go-diskfs/backend/file"
+	"github.com/ngobach/go-diskfs/filesystem/internal/testutil"
 )
 
 func TestFSCompatibility(t *testing.T) {

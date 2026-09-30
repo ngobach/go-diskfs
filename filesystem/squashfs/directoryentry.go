@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/diskfs/go-diskfs/filesystem"
+	"github.com/ngobach/go-diskfs/filesystem"
 )
 
 // directoryEntry is a single directory entry

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/partition/gpt"
+	"github.com/ngobach/go-diskfs/partition/gpt"
 )
 
 // TestTableDuplicateNameRoundTrip verifies that two partitions sharing an

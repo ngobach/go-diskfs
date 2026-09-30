@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/diskfs/go-diskfs/partition/mbr"
-	"github.com/diskfs/go-diskfs/version"
+	"github.com/ngobach/go-diskfs/partition/mbr"
+	"github.com/ngobach/go-diskfs/version"
 )
 
 //nolint:unused // we need these references in the future

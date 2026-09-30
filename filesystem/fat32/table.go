@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"slices"
 
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
 )
 
 // table is fat32's in-memory FAT table. It implements fat12.FATTable so that

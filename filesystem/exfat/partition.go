@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/diskfs/go-diskfs/backend"
+	"github.com/ngobach/go-diskfs/backend"
 )
 
 // Partition manages the exFAT on-disk partition structures, allocation bitmap,

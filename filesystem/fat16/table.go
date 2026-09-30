@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"slices"
 
-	"github.com/diskfs/go-diskfs/filesystem/fat12"
+	"github.com/ngobach/go-diskfs/filesystem/fat12"
 )
 
 // fat16Table implements fat12.FATTable with 16-bit FAT entries.

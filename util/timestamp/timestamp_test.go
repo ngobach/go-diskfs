@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diskfs/go-diskfs/util/timestamp"
+	"github.com/ngobach/go-diskfs/util/timestamp"
 )
 
 func TestTimeStamp(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"io/fs"
 	"path"
 
-	"github.com/diskfs/go-diskfs/disk"
+	"github.com/ngobach/go-diskfs/disk"
 )
 
 func verifyBlockCopy(d *disk.Disk, from, to int, expectedSize int64) error {
